@@ -8,6 +8,10 @@ Copyright (c) National Tsing Hua University, Professor Chih-Hung Wu. All rights 
 
 [English README](README.md)
 
+![教育遊戲中的 Reinforcement 設計循環](assets/reinforcement-design-loop.png)
+
+本 Skill 所說的 Reinforcement 是一個封閉的設計循環：先提出設計假設，引導玩家行動，再由遊戲提供回饋，觀察學習證據，最後修正設計並進入下一輪。
+
 ## 功能
 
 本 Skill 協助團隊從設計 brief 出發，產生多個具有實質差異的遊戲概念，進行盲評、硬性關卡淘汰、G/R/D 評分、教育獎勵函數診斷、人類核准、視覺方向選擇、原型製作與遊戲測試。

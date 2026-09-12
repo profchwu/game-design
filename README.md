@@ -8,6 +8,10 @@ Copyright (c) National Tsing Hua University, Professor Chih-Hung Wu. All rights 
 
 [繁體中文 README](README.zh-TW.md)
 
+![Reinforcement design loop for educational games](assets/reinforcement-design-loop.png)
+
+Reinforcement in this Skill is a closed design loop: a hypothesis shapes player action, the game provides feedback, learning evidence is observed, and the design is refined before the next cycle.
+
 ## What it does
 
 This Skill helps teams move from a design brief to multiple meaningfully different game concepts, blind review, hard-gate elimination, G/R/D scoring, educational reward diagnostics, human approval, visual directions, prototyping, and playtesting.
