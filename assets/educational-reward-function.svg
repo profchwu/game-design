@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#FFFFFF"/>
+  <text x="600" y="54" text-anchor="middle" font-family="Arial, Noto Sans TC" font-size="34" font-weight="700" fill="#12343B">教育遊戲獎勵函數：先問優先權，再鎖定數值</text>
+  <g font-family="Arial, Noto Sans TC">
+    <rect x="55" y="105" width="1090" height="92" rx="16" fill="#EAF0FF" stroke="#356FB2" stroke-width="2"/>
+    <text x="84" y="140" font-size="22" font-weight="700" fill="#1D3557">開發者優先權訪談</text>
+    <text x="84" y="172" font-size="18" fill="#1D3557">最重視哪兩項？如何分配100%？G／C最多扣幾分？是否為Hard Gate？證據從哪裡來？</text>
+
+    <text x="300" y="240" text-anchor="middle" font-size="22" font-weight="700" fill="#157A8A">正向價值</text>
+    <g font-size="20" text-anchor="middle">
+      <rect x="55" y="268" width="130" height="86" rx="12" fill="#DDF2F5"/><text x="120" y="301" font-weight="700" fill="#12343B">L 學習</text><text x="120" y="330" font-size="15" fill="#46616A">0–100</text>
+      <rect x="200" y="268" width="130" height="86" rx="12" fill="#DDF2F5"/><text x="265" y="301" font-weight="700" fill="#12343B">E 投入</text><text x="265" y="330" font-size="15" fill="#46616A">0–100</text>
+      <rect x="345" y="268" width="130" height="86" rx="12" fill="#DDF2F5"/><text x="410" y="301" font-weight="700" fill="#12343B">M 動機</text><text x="410" y="330" font-size="15" fill="#46616A">0–100</text>
+      <rect x="490" y="268" width="130" height="86" rx="12" fill="#DDF2F5"/><text x="555" y="301" font-weight="700" fill="#12343B">A 挑戰</text><text x="555" y="330" font-size="15" fill="#46616A">0–100</text>
+    </g>
+    <text x="760" y="240" text-anchor="middle" font-size="22" font-weight="700" fill="#A84A4A">扣分風險</text>
+    <g font-size="20" text-anchor="middle">
+      <rect x="680" y="268" width="160" height="86" rx="12" fill="#F9E0E0"/><text x="760" y="301" font-weight="700" fill="#9C3434">G 猜答／鑽漏洞</text><text x="760" y="330" font-size="15" fill="#6C4B4B">0–100</text>
+      <rect x="860" y="268" width="160" height="86" rx="12" fill="#FFF1D6"/><text x="940" y="301" font-weight="700" fill="#7A5200">C 認知負荷</text><text x="940" y="330" font-size="15" fill="#6E5B34">0–100</text>
+    </g>
+
+    <path d="M337 370 L337 405 L570 405" fill="none" stroke="#157A8A" stroke-width="5"/>
+    <path d="M850 370 L850 405 L630 405" fill="none" stroke="#C94B4B" stroke-width="5"/>
+    <polygon points="570,394 590,405 570,416" fill="#157A8A"/>
+    <polygon points="630,394 610,405 630,416" fill="#C94B4B"/>
+
+    <rect x="185" y="432" width="830" height="94" rx="16" fill="#12343B"/>
+    <text x="600" y="471" text-anchor="middle" font-size="26" font-weight="700" fill="#FFFFFF">Rₑdu = wL·L + wE·E + wM·M + wA·A − pG·G − pC·C</text>
+    <text x="600" y="503" text-anchor="middle" font-size="16" fill="#CDE3EA">L/E/M/A權重合計1.00；pG、pC各0.00–0.30；結果限制在0–100</text>
+
+    <rect x="55" y="565" width="335" height="100" rx="14" fill="#DDF2F5"/>
+    <text x="222" y="600" text-anchor="middle" font-size="21" font-weight="700" fill="#157A8A">≥75　進入原型</text>
+    <text x="222" y="634" text-anchor="middle" font-size="16" fill="#46616A">仍須通過G／R／D與Hard Gates</text>
+    <rect x="432" y="565" width="335" height="100" rx="14" fill="#FFF1D6"/>
+    <text x="600" y="600" text-anchor="middle" font-size="21" font-weight="700" fill="#7A5200">60–74.99　修改／測試</text>
+    <text x="600" y="634" text-anchor="middle" font-size="16" fill="#6E5B34">找最低構面或最大不確定性</text>
+    <rect x="810" y="565" width="335" height="100" rx="14" fill="#F9E0E0"/>
+    <text x="977" y="600" text-anchor="middle" font-size="21" font-weight="700" fill="#9C3434">&lt;60　不前進</text>
+    <text x="977" y="634" text-anchor="middle" font-size="16" fill="#6C4B4B">除非有人類書面例外理由</text>
+  </g>
+</svg>

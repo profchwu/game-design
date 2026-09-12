@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+  <rect width="1100" height="650" fill="#FFFFFF"/>
+  <text x="550" y="58" text-anchor="middle" font-family="Arial, Noto Sans TC" font-size="34" font-weight="700" fill="#12343B">證據階梯：排名可以先有，信心必須逐步提高</text>
+  <g font-family="Arial, Noto Sans TC">
+    <rect x="80" y="500" width="190" height="82" rx="12" fill="#ECEFF1"/><text x="175" y="533" text-anchor="middle" font-size="22" font-weight="700">設計假設</text><text x="175" y="560" text-anchor="middle" font-size="16">尚未測試</text>
+    <rect x="260" y="405" width="190" height="177" rx="12" fill="#DDF2F5"/><text x="355" y="445" text-anchor="middle" font-size="22" font-weight="700" fill="#12343B">AI預評</text><text x="355" y="475" text-anchor="middle" font-size="16" fill="#12343B">結構化判斷</text><text x="355" y="520" text-anchor="middle" font-size="16" fill="#12343B">信心上限：中</text>
+    <rect x="440" y="310" width="190" height="272" rx="12" fill="#EAF0FF"/><text x="535" y="350" text-anchor="middle" font-size="22" font-weight="700" fill="#1D3557">專家審查</text><text x="535" y="380" text-anchor="middle" font-size="16" fill="#1D3557">領域與方法檢核</text><text x="535" y="425" text-anchor="middle" font-size="16" fill="#1D3557">可提高可信度</text>
+    <rect x="620" y="215" width="190" height="367" rx="12" fill="#FFF1D6"/><text x="715" y="255" text-anchor="middle" font-size="22" font-weight="700" fill="#6E4700">原型觀察</text><text x="715" y="285" text-anchor="middle" font-size="16" fill="#6E4700">行為與問題紀錄</text><text x="715" y="330" text-anchor="middle" font-size="16" fill="#6E4700">尚非正式成效</text>
+    <rect x="800" y="120" width="220" height="462" rx="12" fill="#157A8A"/><text x="910" y="160" text-anchor="middle" font-size="22" font-weight="700" fill="white">真人玩家證據</text><text x="910" y="192" text-anchor="middle" font-size="16" fill="white">樣本・任務・方法</text><text x="910" y="238" text-anchor="middle" font-size="16" fill="white">才能支持「好玩」</text><text x="910" y="269" text-anchor="middle" font-size="16" fill="white">或「有效」的主張</text>
+  </g>
+  <path d="M80 600 L1020 600" stroke="#12343B" stroke-width="3"/>
+</svg>

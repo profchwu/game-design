@@ -1,0 +1,58 @@
+{
+  "ranking_method": "pareto_front_then_minimum_dimension_then_mean_then_id",
+  "ranked": [
+    {
+      "id": "A",
+      "name": "Crisis Chain",
+      "hard_gates": {
+        "session_length": true,
+        "research_boundary": true
+      },
+      "scores": {
+        "game_experience": 88,
+        "research_validity": 92,
+        "development_feasibility": 84
+      },
+      "evidence_level": "ai_pre_score",
+      "confidence": "medium",
+      "pareto_front": 1,
+      "minimum_dimension": 84,
+      "mean_score": 88.0
+    },
+    {
+      "id": "B",
+      "name": "Newsroom Command",
+      "hard_gates": {
+        "session_length": true,
+        "research_boundary": true
+      },
+      "scores": {
+        "game_experience": 80,
+        "research_validity": 95,
+        "development_feasibility": 90
+      },
+      "evidence_level": "ai_pre_score",
+      "confidence": "medium",
+      "pareto_front": 1,
+      "minimum_dimension": 80,
+      "mean_score": 88.33
+    }
+  ],
+  "eliminated": [
+    {
+      "id": "C",
+      "name": "Full RTS",
+      "hard_gates": {
+        "session_length": true,
+        "research_boundary": false
+      },
+      "scores": {
+        "game_experience": 91,
+        "research_validity": 68,
+        "development_feasibility": 70
+      },
+      "evidence_level": "ai_pre_score",
+      "confidence": "medium"
+    }
+  ]
+}

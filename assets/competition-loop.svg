@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="760" viewBox="0 0 1100 760">
+  <defs><marker id="c" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#157A8A"/></marker></defs>
+  <rect width="1100" height="760" fill="#F7FBFC"/>
+  <text x="550" y="62" text-anchor="middle" font-family="Arial, Noto Sans TC" font-size="34" font-weight="700" fill="#12343B">AI競賽不是一次評分，而是可追溯的演化迴圈</text>
+  <g font-family="Arial, Noto Sans TC" text-anchor="middle">
+    <circle cx="550" cy="385" r="120" fill="#12343B"/><text x="550" y="370" font-size="28" font-weight="700" fill="white">下一代候選</text><text x="550" y="410" font-size="20" fill="#DDF2F5">保留・簡化・突變</text><text x="550" y="440" font-size="20" fill="#DDF2F5">重組・專用化・淘汰</text>
+    <rect x="420" y="105" width="260" height="95" rx="16" fill="#DDF2F5" stroke="#157A8A" stroke-width="2"/><text x="550" y="145" font-size="23" font-weight="700" fill="#12343B">候選生成</text><text x="550" y="177" font-size="17" fill="#12343B">核心動詞必須不同</text>
+    <rect x="760" y="260" width="260" height="95" rx="16" fill="#EAF0FF" stroke="#3D66A0" stroke-width="2"/><text x="890" y="300" font-size="23" font-weight="700" fill="#1D3557">五角色盲評</text><text x="890" y="332" font-size="17" fill="#1D3557">遊戲・新手・領域・研究・製作</text>
+    <rect x="700" y="555" width="260" height="95" rx="16" fill="#FFF1D6" stroke="#B87800" stroke-width="2"/><text x="830" y="595" font-size="23" font-weight="700" fill="#6E4700">Hard Gates</text><text x="830" y="627" font-size="17" fill="#6E4700">失敗直接淘汰</text>
+    <rect x="140" y="555" width="260" height="95" rx="16" fill="#EAF0FF" stroke="#3D66A0" stroke-width="2"/><text x="270" y="595" font-size="23" font-weight="700" fill="#1D3557">G / R / D</text><text x="270" y="627" font-size="17" fill="#1D3557">三軸分開・Pareto排序</text>
+    <rect x="80" y="260" width="260" height="95" rx="16" fill="#DDF2F5" stroke="#157A8A" stroke-width="2"/><text x="210" y="300" font-size="23" font-weight="700" fill="#12343B">差距診斷</text><text x="210" y="332" font-size="17" fill="#12343B">找出風險與可重用機制</text>
+  </g>
+  <path d="M680 160 C800 175 855 205 880 260" fill="none" stroke="#157A8A" stroke-width="4" marker-end="url(#c)"/><path d="M925 355 C950 430 915 505 865 555" fill="none" stroke="#157A8A" stroke-width="4" marker-end="url(#c)"/><path d="M700 610 C590 690 450 690 400 610" fill="none" stroke="#157A8A" stroke-width="4" marker-end="url(#c)"/><path d="M235 555 C145 505 130 420 175 355" fill="none" stroke="#157A8A" stroke-width="4" marker-end="url(#c)"/><path d="M225 260 C285 195 355 170 420 160" fill="none" stroke="#157A8A" stroke-width="4" marker-end="url(#c)"/>
+</svg>
+

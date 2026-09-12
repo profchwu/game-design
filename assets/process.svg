@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+  <defs><marker id="p" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#157A8A"/></marker></defs>
+  <rect width="1400" height="760" fill="#FFFFFF"/>
+  <text x="700" y="58" text-anchor="middle" font-family="Arial, Noto Sans TC" font-size="34" font-weight="700" fill="#12343B">從需求到研究版凍結</text>
+  <g font-family="Arial, Noto Sans TC" text-anchor="middle">
+    <rect x="55" y="120" width="250" height="100" rx="16" fill="#DDF2F5" stroke="#157A8A" stroke-width="2"/><text x="180" y="162" font-size="23" font-weight="700" fill="#12343B">1 玩法企劃</text><text x="180" y="194" font-size="17" fill="#12343B">目標・限制・Hard Gates</text>
+    <rect x="390" y="120" width="250" height="100" rx="16" fill="#DDF2F5" stroke="#157A8A" stroke-width="2"/><text x="515" y="162" font-size="23" font-weight="700" fill="#12343B">2 AI競賽</text><text x="515" y="194" font-size="17" fill="#12343B">6–10案・盲評・演化</text>
+    <rect x="725" y="120" width="250" height="100" rx="16" fill="#EAF0FF" stroke="#3D66A0" stroke-width="2"/><text x="850" y="162" font-size="23" font-weight="700" fill="#1D3557">3 排名決策</text><text x="850" y="194" font-size="17" fill="#1D3557">前三名・風險・下一測試</text>
+    <rect x="1060" y="120" width="250" height="100" rx="16" fill="#12343B"/><text x="1185" y="162" font-size="23" font-weight="700" fill="white">核准 A</text><text x="1185" y="194" font-size="17" fill="#DDF2F5">人類選擇玩法</text>
+    <rect x="1060" y="340" width="250" height="100" rx="16" fill="#FFF1D6" stroke="#B87800" stroke-width="2"/><text x="1185" y="382" font-size="23" font-weight="700" fill="#6E4700">4 三款示意圖</text><text x="1185" y="414" font-size="17" fill="#6E4700">同場景・同資料・不同風格</text>
+    <rect x="725" y="340" width="250" height="100" rx="16" fill="#12343B"/><text x="850" y="382" font-size="23" font-weight="700" fill="white">核准 B</text><text x="850" y="414" font-size="17" fill="#DDF2F5">人類選擇視覺</text>
+    <rect x="390" y="340" width="250" height="100" rx="16" fill="#FFF1D6" stroke="#B87800" stroke-width="2"/><text x="515" y="382" font-size="23" font-weight="700" fill="#6E4700">5 單關原型</text><text x="515" y="414" font-size="17" fill="#6E4700">互動・SVG・Remotion・音效</text>
+    <rect x="55" y="340" width="250" height="100" rx="16" fill="#DDF2F5" stroke="#157A8A" stroke-width="2"/><text x="180" y="382" font-size="23" font-weight="700" fill="#12343B">6 玩家測試</text><text x="180" y="414" font-size="17" fill="#12343B">理解・刺激・因果・重玩</text>
+    <rect x="255" y="570" width="250" height="100" rx="16" fill="#EAF0FF" stroke="#3D66A0" stroke-width="2"/><text x="380" y="612" font-size="23" font-weight="700" fill="#1D3557">7 單變項迭代</text><text x="380" y="644" font-size="17" fill="#1D3557">保留版本與回歸證據</text>
+    <rect x="575" y="570" width="250" height="100" rx="16" fill="#FFF1D6" stroke="#B87800" stroke-width="2"/><text x="700" y="612" font-size="23" font-weight="700" fill="#6E4700">8 完整製作</text><text x="700" y="644" font-size="17" fill="#6E4700">關卡・美術・資料・無障礙</text>
+    <rect x="895" y="570" width="250" height="100" rx="16" fill="#12343B"/><text x="1020" y="612" font-size="23" font-weight="700" fill="white">9 研究版凍結</text><text x="1020" y="644" font-size="17" fill="#DDF2F5">正式研究前停止變更</text>
+  </g>
+  <path d="M305 170 L390 170" stroke="#157A8A" stroke-width="4" marker-end="url(#p)"/><path d="M640 170 L725 170" stroke="#157A8A" stroke-width="4" marker-end="url(#p)"/><path d="M975 170 L1060 170" stroke="#157A8A" stroke-width="4" marker-end="url(#p)"/>
+  <path d="M1185 220 L1185 340" stroke="#157A8A" stroke-width="4" marker-end="url(#p)"/><path d="M1060 390 L975 390" stroke="#157A8A" stroke-width="4" marker-end="url(#p)"/><path d="M725 390 L640 390" stroke="#157A8A" stroke-width="4" marker-end="url(#p)"/><path d="M390 390 L305 390" stroke="#157A8A" stroke-width="4" marker-end="url(#p)"/>
+  <path d="M180 440 L180 510 L380 510 L380 570" stroke="#157A8A" stroke-width="4" fill="none" marker-end="url(#p)"/><path d="M505 620 L575 620" stroke="#157A8A" stroke-width="4" marker-end="url(#p)"/><path d="M825 620 L895 620" stroke="#157A8A" stroke-width="4" marker-end="url(#p)"/>
+</svg>
+

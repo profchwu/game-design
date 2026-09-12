@@ -1,0 +1,28 @@
+{
+  "candidates": [
+    {
+      "id": "A",
+      "name": "Crisis Chain",
+      "hard_gates": {"session_length": true, "research_boundary": true},
+      "scores": {"game_experience": 88, "research_validity": 92, "development_feasibility": 84},
+      "evidence_level": "ai_pre_score",
+      "confidence": "medium"
+    },
+    {
+      "id": "B",
+      "name": "Newsroom Command",
+      "hard_gates": {"session_length": true, "research_boundary": true},
+      "scores": {"game_experience": 80, "research_validity": 95, "development_feasibility": 90},
+      "evidence_level": "ai_pre_score",
+      "confidence": "medium"
+    },
+    {
+      "id": "C",
+      "name": "Full RTS",
+      "hard_gates": {"session_length": true, "research_boundary": false},
+      "scores": {"game_experience": 91, "research_validity": 68, "development_feasibility": 70},
+      "evidence_level": "ai_pre_score",
+      "confidence": "medium"
+    }
+  ]
+}

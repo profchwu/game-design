@@ -1,0 +1,7 @@
+interface:
+  display_name: "Game Design"
+  short_description: "AI game concept tournaments, ranking, and teaching"
+  brand_color: "#157A8A"
+  default_prompt: "Use $game-design to ask which educational factors I prioritize, lock the reward-function weights, then generate, compete, and rank game concepts before I choose one to prototype."
+policy:
+  allow_implicit_invocation: true
