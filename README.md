@@ -14,15 +14,35 @@ The formal execution entry point is [`SKILL.md`](SKILL.md). A Traditional Chines
 
 ## Install in Codex
 
+The recommended installation is to clone this repository and run the included installer. The installer copies the Skill files into the Codex Skills directory and leaves the repository's README and installer outside the installed Skill.
+
 ### Windows quick install
 
-From a PowerShell window in this repository, run:
+Open PowerShell and run:
+
+```powershell
+git clone https://github.com/profchwu/game-design.git
+cd game-design
+.\INSTALL_SKILL.ps1
+```
+
+If `game-design` is already installed and you want to replace it with this version, run:
 
 ```powershell
 .\INSTALL_SKILL.ps1 -Force
 ```
 
-The `-Force` option replaces an existing `game-design` installation.
+The default installation path is:
+
+```text
+%USERPROFILE%\.codex\skills\game-design\
+```
+
+To choose another Codex installation directory, pass an explicit destination:
+
+```powershell
+.\INSTALL_SKILL.ps1 -Destination "$env:USERPROFILE\.codex\skills\game-design" -Force
+```
 
 ### Windows
 
@@ -42,13 +62,29 @@ Restart Codex or reload the Skill list.
 
 ### macOS/Linux
 
-Copy the complete repository contents into:
+Clone the repository:
+
+```bash
+git clone https://github.com/profchwu/game-design.git
+cd game-design
+```
+
+Copy the complete Skill contents into:
 
 ```text
 ~/.codex/skills/game-design/
 ```
 
+For example:
+
+```bash
+mkdir -p ~/.codex/skills/game-design
+cp -R SKILL.md agents assets references scripts COPYRIGHT.md ~/.codex/skills/game-design/
+```
+
 The final path must end with `game-design/SKILL.md`.
+
+Restart Codex or reload the Skill list after installation.
 
 ## Validate
 
