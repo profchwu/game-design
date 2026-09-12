@@ -12,6 +12,19 @@ Copyright (c) National Tsing Hua University, Professor Chih-Hung Wu. All rights 
 
 本 Skill 所說的 Reinforcement 是一個封閉的設計循環：先提出設計假設，引導玩家行動，再由遊戲提供回饋，觀察學習證據，最後修正設計並進入下一輪。
 
+## 核心設計理念
+
+![game-design Skill 核心設計理念](assets/core-design-principles.png)
+
+本 Skill 以六項相互連結的原則運作：
+
+- **Evidence First（證據優先）：** 以學習者、領域知識與遊戲測試證據支持設計決策。
+- **Alternatives（多方案）：** 先產生具有實質差異的概念，再進行選擇。
+- **Blind Review（盲評）：** 依評分規準比較方案，不讓作者身分或表達風格影響判斷。
+- **Hard Gates（硬性關卡）：** 淘汰不符合學習、安全、可行性或其他不可妥協限制的方案。
+- **Human Approval（人類核准）：** 由教師、研究者或專案負責人保留關鍵決策權。
+- **Prototype + Test（原型與測試）：** 先建立最小可用實驗，再用結果修正下一輪設計。
+
 ## 功能
 
 本 Skill 協助團隊從設計 brief 出發，產生多個具有實質差異的遊戲概念，進行盲評、硬性關卡淘汰、G/R/D 評分、教育獎勵函數診斷、人類核准、視覺方向選擇、原型製作與遊戲測試。
@@ -77,11 +90,18 @@ python <path-to-skill-creator>/scripts/quick_validate.py ~/.codex/skills/game-de
 - [`assets/student-worksheet.md`](assets/student-worksheet.md) — 學生工作表
 - [`assets/instructor-rubric.md`](assets/instructor-rubric.md) — 教師評分規準
 
-## 配套能力
+## 可搭配的 Skill
 
-本 Skill 可依任務需要搭配 Sites、視覺化、影像生成、Remotion、SVG/CSS/canvas 與瀏覽器測試等能力。
+以下 Skill 可在已安裝且符合任務需要時，與 `game-design` 搭配使用：
 
-背景音樂與音效應使用具授權的素材或使用者提供的素材；若環境提供合適的音訊生成能力，也可以依授權與來源規則使用。
+- **設計與交付：** `dt`、`dt-sdlc`、`sdlc`
+- **視覺探索：** `imagegen`、`visualize:visualize`
+- **影片與動態：** `remotion-best-practices`
+- **網站與原型交付：** `sites:sites-building`、`computer-use:computer-use`
+- **文件與教學教材：** `presentations:Presentations`、`documents:documents`
+- **音訊：** 使用具授權的背景音樂與音效，或使用者提供的素材。本 repository 沒有內附專用的音訊生成 Skill。
+
+這些 Skill 是 `game-design` 的配套能力，不會取代其證據、競賽、硬性關卡與人類核准流程。
 
 ## 著作權與署名
 

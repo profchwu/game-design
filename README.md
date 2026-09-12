@@ -12,6 +12,19 @@ Copyright (c) National Tsing Hua University, Professor Chih-Hung Wu. All rights 
 
 Reinforcement in this Skill is a closed design loop: a hypothesis shapes player action, the game provides feedback, learning evidence is observed, and the design is refined before the next cycle.
 
+## Core design principles
+
+![Core design principles of the game-design Skill](assets/core-design-principles.png)
+
+The Skill uses six connected principles:
+
+- **Evidence first:** ground decisions in learner, domain, and playtest evidence.
+- **Alternatives:** generate meaningfully different concepts before selecting one.
+- **Blind review:** compare concepts by rubric rather than by author identity or presentation style.
+- **Hard gates:** remove concepts that fail learning, safety, feasibility, or other non-negotiable constraints.
+- **Human approval:** keep consequential decisions with the teacher, researcher, or project owner.
+- **Prototype + test:** build the smallest useful experiment and use results to refine the next cycle.
+
 ## What it does
 
 This Skill helps teams move from a design brief to multiple meaningfully different game concepts, blind review, hard-gate elimination, G/R/D scoring, educational reward diagnostics, human approval, visual directions, prototyping, and playtesting.
@@ -90,9 +103,18 @@ The validator should report `Skill is valid!`.
 - [`assets/student-worksheet.md`](assets/student-worksheet.md) — student worksheet
 - [`assets/instructor-rubric.md`](assets/instructor-rubric.md) — instructor rubric
 
-## Companion capabilities
+## Companion skills
 
-The Skill routes work to available companion capabilities such as Sites, visualization, image generation, Remotion, SVG/CSS/canvas, and browser testing. Background music and sound effects require licensed or user-provided assets unless a suitable audio-generation capability is available.
+Use these companion Skills when they are installed and relevant to the task:
+
+- **Design and delivery:** `dt`, `dt-sdlc`, `sdlc`
+- **Visual exploration:** `imagegen`, `visualize:visualize`
+- **Video and motion:** `remotion-best-practices`
+- **Web and prototype delivery:** `sites:sites-building`, `computer-use:computer-use`
+- **Documents and teaching materials:** `presentations:Presentations`, `documents:documents`
+- **Audio:** use licensed or user-provided music and sound effects. This repository does not bundle a dedicated audio-generation Skill.
+
+These Skills complement `game-design`; they do not replace its evidence, competition, hard-gate, and human-approval process.
 
 ## Copyright and attribution
 
