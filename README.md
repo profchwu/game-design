@@ -40,6 +40,27 @@ When reviewing a design, ask:
 - Does the feedback explain consequences and support a better next decision?
 - What evidence would make us keep, revise, or stop the design?
 
+## How to evaluate which game is better
+
+“Better” does not mean the game with the highest single score. It means the candidate that meets the declared purpose and hard constraints, performs well across the relevant dimensions, and has the strongest evidence for its claims.
+
+Use this evaluation sequence:
+
+1. **Lock the brief and hard gates.** Define the audience, learning or entertainment goal, session length, accessibility needs, platform, and non-negotiable constraints before seeing candidate scores.
+2. **Generate different candidates.** Create 6–10 concepts with different core verbs, choice structures, pressure models, failure models, or replay structures. Cosmetic reskins are not different candidates.
+3. **Run a blind review.** Use separate lenses for game design, first-time play, domain accuracy, research validity, and production feasibility. Do not let author identity or presentation style decide the result.
+4. **Apply hard gates first.** Eliminate a candidate that fails a non-negotiable learning, safety, accessibility, research, or feasibility condition. A high average cannot rescue a hard-gate failure.
+5. **Score separate dimensions.** Use `G` for Game Experience, `R` for Research Validity, and `D` for Development Feasibility. For a non-research entertainment game, replace `R` with Purpose Fit. Keep the dimensions separate instead of hiding weaknesses in one average.
+6. **Use educational evidence.** For an educational game, calculate `R_edu` separately. It combines Learning (`L`), Engagement (`E`), Motivation/self-efficacy (`M`), and Appropriate challenge (`A`), while penalizing Guessing/exploitation (`G`) and Cognitive overload (`C`):
+
+   `R_edu = wL*L + wE*E + wM*M + wA*A - pG*G - pC*C`
+
+   `R_edu` is a diagnostic, not proof of learning and not a replacement for formal assessment. Do not average it into `G`, `R`, or `D`.
+7. **Prototype the riskiest assumption.** Test the smallest vertical slice that can reveal whether the core choice, feedback, learning task, or production risk works in practice.
+8. **Make the human decision.** Compare the surviving candidates and their uncertainties. If no candidate dominates every dimension, use Pareto fronts and disclose the tie-breaker. The teacher, researcher, or project owner chooses approve, revise, or pause.
+
+Evidence should be labeled as `hypothesis`, `ai_pre_score`, `expert_review`, `prototype_observation`, or `player_evidence`. AI-only scores cannot be treated as high-confidence validation.
+
 ## What it does
 
 This Skill helps teams move from a design brief to multiple meaningfully different game concepts, blind review, hard-gate elimination, G/R/D scoring, educational reward diagnostics, human approval, visual directions, prototyping, and playtesting.
