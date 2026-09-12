@@ -25,6 +25,21 @@ The Skill uses six connected principles:
 - **Human approval:** keep consequential decisions with the teacher, researcher, or project owner.
 - **Prototype + test:** build the smallest useful experiment and use results to refine the next cycle.
 
+## Design philosophy
+
+Good educational game design begins with a learning claim, not with a mechanic. The team makes the claim explicit, translates it into observable player actions and feedback, and uses evidence to decide whether the game teaches what it intends to teach.
+
+Reinforcement in this Skill means a design-and-learning loop. A reward or feedback is useful only when it helps players notice consequences, choose a better strategy, and produce evidence of understanding. Engagement alone is not proof of learning.
+
+The workflow follows four movements: expand the option space, compare alternatives fairly, remove failures with hard gates, and learn from play. AI can generate, summarize, challenge, and score against a rubric. The teacher, researcher, or project owner keeps consequential approval.
+
+When reviewing a design, ask:
+
+- What should the learner understand or be able to do after playing?
+- Which player action gives us evidence of that learning?
+- Does the feedback explain consequences and support a better next decision?
+- What evidence would make us keep, revise, or stop the design?
+
 ## What it does
 
 This Skill helps teams move from a design brief to multiple meaningfully different game concepts, blind review, hard-gate elimination, G/R/D scoring, educational reward diagnostics, human approval, visual directions, prototyping, and playtesting.
